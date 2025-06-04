@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  spotify-downloader:
+    build: .
+    container_name: spotify_downloader
+    volumes:
+      - ./data:/app/data  # Base de datos y CSV compartidos con el host
+      - ./music:/app/music  # Carpeta compartida para almacenar las canciones
+    restart: "no"
