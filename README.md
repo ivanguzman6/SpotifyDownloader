@@ -16,19 +16,12 @@ Este proyecto permite descargar canciones desde YouTube en formato MP3, basándo
 
 ## 📁 Estructura de Carpetas
 ├── data/
-
 │ ├── playlist.csv # CSV exportado desde TuneMyMusic o Spotify
-
 │ └── spotify_downloads.db # Base de datos SQLite (se crea automáticamente)
-
 ├── music/ # Carpeta donde se guardan los archivos MP3
-
 ├── docker-compose.yml
-
 ├── Dockerfile
-
 ├── requirements.txt
-
 └── spotify_downloader.py
 
 
